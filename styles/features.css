@@ -1,0 +1,8 @@
+.feat_container{
+    display: flex;
+}
+
+.ft-img{
+    width:400px;
+    height: 300px;
+}

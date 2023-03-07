@@ -1,0 +1,23 @@
+.navbar_container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: var(--cor2);
+    height: 20px;
+    padding: 1em;
+    box-shadow: -1px 7px 10px var(--cor2);
+}
+.navbar{
+    text-align: center;
+    font-size: 15px;
+    color: var(--whitesmoke);
+    text-shadow: 3px 3px 5px;
+}
+
+.navbar p{
+    font-size: 18px;
+}
+
+.logo{
+    width: 7em;
+}

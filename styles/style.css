@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&display=swap');
+@import url(./navbar.css);
+@import url(./features.css);
+
+:root{
+    --cor1: #3bbac3;
+    --cor2: #1298cd;
+    --whitesmoke: #f5f5f5;
+    --fonte: 'Poppins', sans-serif;
+    --fundoFeat: #0f678a;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body{
+    background-color: var(--cor1);
+    font-family: var(--fonte);
+}
+
+.header_container{
+    margin-top: 0.5em;
+    width: 100%;
+}
