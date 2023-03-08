@@ -1,0 +1,19 @@
+.icon_content{
+    width: 70px;
+    margin-bottom: 2em;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    white-space:pre-line ;
+    cursor: pointer;
+}
+
+.content li{
+    border-top: 1px solid white;
+    width: 1000px;
+    text-align: center;
+    list-style: none;
+}
+
+
