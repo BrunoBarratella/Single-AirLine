@@ -1,23 +1,27 @@
-.navbar_container{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    background-color: var(--cor2);
-    height: 20px;
-    padding: 1em;
-    box-shadow: -1px 7px 10px var(--cor2);
-}
-.navbar{
-    text-align: center;
-    font-size: 15px;
-    color: var(--whitesmoke);
-    text-shadow: 3px 3px 5px;
+.container_nav{
+    width: 100%;
+    background-color:var(--azul-bb);
 }
 
-.navbar p{
-    font-size: 18px;
+.nav_conteudo{
+    padding: 1em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    color: var(--azul-escuro);
+    font-weight: 700;
 }
 
 .logo{
     width: 7em;
+    /* margin-bottom: 0.5em; */
+}
+
+@media screen and (min-width:1024px) {
+    .nav_conteudo{
+        display: flex;
+        justify-content: space-between;
+        margin: 0 13.5%;
+    }
 }

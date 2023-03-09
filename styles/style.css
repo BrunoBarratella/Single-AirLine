@@ -1,14 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Poppins:wght@100;300;400;700&display=swap');
 @import url(./navbar.css);
 @import url(./features.css);
-@import url(./sub.css);
+@import url(./email.css);
 @import url(./content.css);
+
 :root{
+    
     --cor1: #3bbac3;
     --cor2: #1298cd;
-    --azulEscuro: #022938;
-    --azulMedio:#005b80;
-    --whitesmoke: #f5f5f5;
+    --azul-bb:#ECF2FF;
+    --azul-escuro: #3E54AC;
+    --azul: #022938;
     --fontePoppins: 'Poppins', sans-serif;
     --fonteCaveat: 'Caveat', cursive;
 }
@@ -23,23 +25,28 @@
 }
 
 body{
-    background-color: var(--cor1);
     font-family: var(--fontePoppins);
 }
 
-.header_container{
-    margin-top: 0.5em;
+.banner_container{
     width: 100%;
+    background: url(../img/bannerHeader.png);
+    background-position: center;
+    height: 200px;
 }
 
-::-webkit-scrollbar-track {
-    background-color: var(--cor1);
+.img_banner{
+    display: none;
 }
-::-webkit-scrollbar {
-    width: 8px;
-    background: var(--cor1);
-}
-::-webkit-scrollbar-thumb {
-    background: var(--azulEscuro);
-    border-radius: 15px;
+
+@media screen and (min-width:1024px) {
+    .banner_container{
+        background: none;
+        height: auto;
+    }
+
+    .img_banner{
+        display: block;
+        width: 100%;
+    }
 }
